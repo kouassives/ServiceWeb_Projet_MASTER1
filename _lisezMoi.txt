@@ -1,0 +1,10 @@
+*** Services Web en Java
+
+* Les répertoires
+
+- client : l'application cliente
+- serveur : le service Web et le publieur
+
+* Mode d'emploi
+
+D'abord, il faut mettre en place le serveur puis ensuite le client. Consultez les fichiers _lisezMoi.txt correspondants.

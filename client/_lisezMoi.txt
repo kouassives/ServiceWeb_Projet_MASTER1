@@ -1,0 +1,22 @@
+*** Services Web en Java
+
+* Les répertoires
+
+- messervices : le package vide
+
+* Les fichiers
+
+- Client.java : le programme principal du client
+
+* Mode d'emploi
+
+- Récupérer la description WSDL (le serveur doit être en marche)
+    wsimport -keep -p messervices http://localhost:8080/services?wsdl
+- Vérifiez que les fichiers suivants sont présents dans le répertoire messervices
+   - MonService.java
+   - MonServiceService.java
+- Compilez le programme principal :
+    javac Client.java
+- Exécutez le programme principal :
+    java Client
+  (on vous demande votre nom, saisissez-le et un message doit s'afficher)

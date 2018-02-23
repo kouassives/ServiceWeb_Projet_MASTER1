@@ -1,0 +1,23 @@
+*** Services Web en Java
+
+* Les répertoires
+
+- messervices : le package contenant le service Web à déployer
+
+* Les fichiers
+
+- Publieur.java : le programme principe qui permet de déployer le service Web
+- MonService.java : le service Web
+
+* Mode d'emploi
+
+- Compilez le service Web (dans le répertoire serveur) :
+    javac messervices/MonService.java
+- Compilez le programme principal :
+    javac Publieur.java
+- Exécutez le programme principal :
+    java Publieur
+  (une petite fenêtre doit s'ouvrir)
+- Vérifiez que le service Web fonctionne :
+    dans un navigateur, allez à l'URL http://localhost:8080/services
+- Maintenant, le service Web est prêt et vous pouvez vous occuper du client.
